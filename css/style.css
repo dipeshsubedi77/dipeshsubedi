@@ -50,7 +50,7 @@ ul{
     
 }
 .hidden{
-    display: none !important;
+    display: none ;
 }
 
 .padd-1S{
@@ -692,17 +692,29 @@ about .about-content .timeline .timeline-text{
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .home .home-img,
     .about .about-content .education,
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .home .home-img{
-        display: none;
+    .container{
+        flex-wrap: wrap;
     }
+    .home .home-img{
+        display:flex;
+        position:relative;
+        top: 60px;
+        left: 40px;
+        
+    }
+    
+   
 }
 @media (max-width:767px)
+
 {
+    .home .home-img,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
