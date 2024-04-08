@@ -671,8 +671,12 @@ about .about-content .timeline .timeline-text{
     padding: 0 5px;
     
 }
-@media (max-width:1199px)
-{
+@media (max-width:1199px){
+.home .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+}
+
     .aside{
         left:-270px;
         
@@ -708,6 +712,13 @@ about .about-content .timeline .timeline-text{
         left: 40px;
         
     }
+    .nav-toggler{
+        display:none;
+        position: relative;
+        top: 56px;
+        right: 60px;
+        
+    }
     
    
 }
@@ -727,5 +738,9 @@ about .about-content .timeline .timeline-text{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .container{
+        flex-wrap: wrap;
+    }
+    
 
 }
