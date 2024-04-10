@@ -725,7 +725,11 @@ about .about-content .timeline .timeline-text{
 @media (max-width:767px)
 
 {
-    .home .home-img,
+
+   .home .container .row .home-img{
+        background-image: url(/images/dipesh1111.png.jpg);
+    }
+    
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -741,6 +745,11 @@ about .about-content .timeline .timeline-text{
     .container{
         flex-wrap: wrap;
     }
-    
+    .home.home-img{
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
 
 }
