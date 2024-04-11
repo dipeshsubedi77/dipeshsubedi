@@ -4,8 +4,9 @@
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
-    --text-black-900:#302e4d;
+    --text-black-900:#1b1b22;
     --text-black-700:#504e70;
+    --textforuhome:#2c9729;
 
 }
 body.dark{
@@ -36,15 +37,13 @@ body{
 ul{
     list-style: none;
 }
-.main-content{
-    padding-left: 270px;
-}
+
 
 .section{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    padding: 0 30px;
+    padding: 0 ;
     
     opacity: 1;
     
@@ -117,6 +116,7 @@ ul{
     border: none;
     background: var(--skin-color);
     transition: all 0.3s ease;
+    margin: 6px;
 }
 .btn:hover{
     transform: scale(1.05);
@@ -125,202 +125,99 @@ ul{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 /* aside*/
-.aside{
-    width: 270px;
-    background: var(--bg-black-100);
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 30px;
-
-    height: 100%;
-    border-right:  1px solid var(--bg-black-50);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-}
-.aside .logo{
-    position: absolute;
-    top: 50px;
-    font-size: 30px;
-    text-transform: capitalize;
-    
-}
-.aside .logo a{
-    color: var(--text-black-900);
-    font-weight: 700;
-    
-    padding: 15px 20px;
-    font-size: 30px;
-    letter-spacing: 5px;
-    position: relative;
-    
-}
-.aside .logo a span{
-    font-family: 'Clicker Script',cursive;
-    font-size: 40px;
-}
-.aside .logo a:before{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-bottom: 5px solid var(--skin-color);
-    border-left: 5px solid var(--skin-color);
-    bottom: 0;
-    left: 0;
-
-}
-.aside .logo a:after{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-top: 5px solid var(--skin-color);
-    border-right: 5px solid var(--skin-color);
-    top: 0;
-    right: 0;
-    
-}
-
-.aside .nav-toggler{
-    height: 40px;
-    width: 45px;
-    border: 1px solid var(--bg-black-50);
-    cursor: pointer;
-    position: fixed;
-    left: 300px;
-    top: 20px;
-    border-radius: 5px;
-    background: var(--bg-black-100);
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-.aside .nav-toggler span{
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    display: inline-block;
-    display: inline-block;
-    position: relative;
-}
-
-.aside .nav-toggler span::before{
-    content: '';
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    position: absolute;
-    top: -6px;
-    left: 0;
-}
-.aside .nav-toggler span::after{
-    content: '';
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    position: absolute;
-    top: 6px;
-    left: 0;
-}
-.aside .nav{
-    margin-top: 50px;
 
 
-}
-.aside .nav li{
-    margin-bottom: 20px;
-    
-    display: block;
-}
-.aside .nav li a{
-    font-size: 16px;
-    font-weight: 600;
-    display: block;
-    border-bottom: 1px solid var(--bg-black-50);
-    color: var(--text-black-900);
-    padding: 5px 15px;
 
-}
-.aside .nav li a.active{
-    color: var(--skin-color);
-
-}
-.aside .nav li a i{
-    margin-right: 15px;
-}
 /* home */
-.home{
-    min-height: 100vh;
-    display: flex;
-    color: var(--text-black-900);
+ul li{
+    list-style: none;
+    display: inline-block;
 }
-.home .home-info{
-    flex: 0 0 60%;
-    max-width: 60%;
-}
-h3.hello{
-    font-size: 28px;
-    margin: 15px 0;
-}
-h3.hello span{
-    font-family: 'Clicker Script', cursive; 
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--skin-color);
-}
-h3.my-profession{
-    font-size: 30px;
-    margin: 15px 0;
-}
-.typing{
-    color: var(--skin-color);
+a{
+    text-decoration: none;
 }
 
-.home-info p{
-    margin-bottom: 70px;
-    font-size: 20px;
-    color: var(--text-black-700);
+span{
+    color: var(--red-color);
 }
-.home .home-img{
-    flex: 0 0 40%;
-    max-width: 40%;
-    text-align: center;
+
+/* header section */
+
+header{
+    background-color: rgb(0, 0, 179);
+    background-image: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('../images/dipeshdon3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-black-900);
+    height: 100vh;
+    
+}
+.navBar{
+   
+    padding: 30px 0;
+    
+    
+}
+.logo h1{
+    font-size: 1.6rem;
+    text-decoration-style: solid;
+    color: var(--skin-color);
+    
+   
+}
+.navLinks ul{
+    margin: 0 0 0 50px;
+   
+
+}
+.navLinks ul li a 
+{
+    margin: 0 10px;
+    padding: 0 5px;
+    color: var(--bg-black-900);
+    font-size: 18px;
     position: relative;
 }
-.home-img::after{
+.navLinks ul li a::before{
     content: '';
+    width: 0;
+    background-color: var(--bg-black-900);
     position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-
-    right: 20px;
-    bottom: -40px;
-
+    bottom: 1px;
+    left: 0px;
+    height: 1px;
+    transition: all ease 0.6s;
 }
-.home-img::before{
-    content: '';
+.navLinks ul li a:hover::before{
+    width: 100%;
+}
+.navBar button{
     position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-
-    left: -20px;
-    top: -40px;
+    left: 80%;
+    border-radius: 10px;
+    background-color: var(--skin-color);
+}
+.text-center{
+    text-align: center;
 
 }
-.home .home-img img{
-    height: 350px;
-    margin: auto;
-    border-radius: 5px;
 
+.headerContent{
+    position: absolute;
+    top: 45%;
+    left: 22%;
+    font-family: 'Poppins' sans-serif;
 }
+.headerContent p{
+    line-height: 2;
+}
+.headerContent h1{
+    left: 19%;
+}
+
+
 /*About section*/
 .about .about-content{
     flex: 0 0 100%;

@@ -1,4 +1,4 @@
-var typed = new Typed(".typing",{
+var typed = new Typed("#typeWriter",{
     strings:["","Web Desiginer","Web Developer","Graphic Desiginer","Youtuber","Freelancer","Logo Desiginer","Cyber Security","Social Media Manager","Student"],
     typedSpeed:100,
     BackSpeed:60,
