@@ -644,5 +644,9 @@ about .about-content .timeline .timeline-text{
     }
     
     }
+
+    .headerContent span{
+        color: var(--skin-color);
+    }
     
 
