@@ -157,6 +157,9 @@ header{
 .navBar{
    
     padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
     
 }
@@ -647,6 +650,20 @@ about .about-content .timeline .timeline-text{
 
     .headerContent span{
         color: var(--skin-color);
+        
     }
+    .headerContent .paragraph{
+        padding: 1rem;
+    }
+    .headSection .navBar .logo{
+        text-align: center;
+        font-size: 3px;
+        border-bottom: 2px solid var(--skin-color);
+    }
+    .headSection .navBar .navLinks ul li a{
+        font-size: 20px;
+        border-bottom: 3px;
+    }
+    
     
 
