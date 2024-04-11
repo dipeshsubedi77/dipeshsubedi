@@ -602,15 +602,11 @@ about .about-content .timeline .timeline-text{
     .container{
         flex-wrap: wrap;
     }
-    .home .home-img{
-        display:flex;
-        position:relative;
-        top: 60px;
-        left: 40px;
+    
         
     }
     .nav-toggler{
-        display:none;
+        display:flex;
         position: relative;
         top: 56px;
         right: 60px;
@@ -618,14 +614,12 @@ about .about-content .timeline .timeline-text{
     }
     
    
-}
+
 @media (max-width:767px)
 
 {
 
-   .home .container .row .home-img{
-        background-image: url(/images/dipesh1111.png.jpg);
-    }
+   
     
     .contact .contact-form .col-6,
     .contact .contact-info-item,
@@ -639,14 +633,8 @@ about .about-content .timeline .timeline-text{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .container{
-        flex-wrap: wrap;
+    .container
+    
     }
-    .home.home-img{
-        display: flex;
-        align-items: center;
-        width: 200px;
-        height: 200px;
-    }
+    
 
-}
