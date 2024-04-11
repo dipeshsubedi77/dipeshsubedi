@@ -618,6 +618,11 @@ about .about-content .timeline .timeline-text{
 @media (max-width:767px)
 
 {
+    .about .about-content .education{
+       flex: 0 0 100%;
+        max-width: 100%;S
+
+}
 
    
     
@@ -633,7 +638,10 @@ about .about-content .timeline .timeline-text{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .container
+    .container{
+        flex-wrap: wrap;
+        padding-left: 2px;
+    }
     
     }
     
